@@ -1,0 +1,84 @@
+body {
+    background-color: #f0f0f1!important;
+    overflow-x: hidden;
+}
+
+.layout {
+    margin-left: -20px;
+    overflow-x: hidden;
+}
+
+.ant-layout-header {
+    background: #ffffff!important;
+    padding: 0 30px!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plugin-name {
+    font-size: 16px;
+    color: #6e6e6e;
+    margin-top: -1px;
+    padding: 0;
+    float: left;
+    border: 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-layout-content {
+    padding: 20px;
+}
+
+.asl-battle-welcome {
+    max-width: 500px;
+    margin: 45px auto 0;
+    padding: 30px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.asl-battle-welcome h2 {
+    font-size: 30px;
+}
+
+.ant-input,
+.ant-input-number-input {
+    box-sizing: border-box!important;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px!important;
+    color: rgba(0, 0, 0, 0.85)!important;
+    font-size: 14px;
+    line-height: 1.5715!important;
+    background-color: #fff!important;
+    background-image: none;
+    border: 1px solid #d9d9d9!important;
+    border-radius: 2px!important;
+
+    min-height: auto !important;
+    transition: all 0.3s;
+}
+
+.ant-input:hover {
+    border-color: #40a9ff !important;
+    border-right-width: 1px !important;
+}
+
+
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input, .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+    background: #fff;
+    border-color: #ff4d4f!important;
+}
+
+
+.ant-message {
+    margin-top: 40px;
+}
+
